@@ -1,0 +1,23 @@
+.box {
+  max-width: 600px;
+  min-width: 300px;
+  max-height: 400px;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: 1px solid #fff;
+  margin: 1rem 0;
+  background-color: #cecece;
+  word-break: break-all;
+  overflow: auto;
+}
+
+.box p {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+  color: #3a3a3a;
+}
+
+.box span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
