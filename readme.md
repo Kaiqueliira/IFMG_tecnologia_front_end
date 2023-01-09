@@ -1,7 +1,7 @@
 
-# Semana 3 tecnologia front-end
+# Repositório para Atividades da Matéria de tecnologia front-end
 
-Projeto feito com intuito de avaliação da tarefa da 3ª semana da matéria de Tecnologia de front-end na especialização de Desenvolvimento Web e mobile no instituto federal de minas gerais - campus rio pomba.
+Projeto feito com intuito de avaliação dpara Atividades da Matéria de Tecnologia de front-end na especialização de Desenvolvimento Web e mobile no instituto federal de minas gerais - campus rio pomba.
 
 # Resolução
 Componente de Login (Nome de Usuário)
