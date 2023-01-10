@@ -1,30 +1,19 @@
-import { useState } from "react";
-import UsuarioEntrada from "./components/UsuarioEntrada/Index";
-import UsuarioSaida from "./components/UsuarioSaida/Index";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Semana3 from "./pages/Semana3";
+import Semana4 from "./pages/Semana4";
+import Semana5 from "./pages/Semana5";
 
 function App() {
-  const [login, setlogin] = useState("Seu Login...");
-  const [paragrafo, setParagrafo] = useState("Escreva a descrição");
-
-  const handleLogin = (e) => {
-    setlogin(e.target.value);
-  };
-
-  const handleParagrafo = (e) => {
-    setParagrafo(e.target.value);
-  };
-
   return (
-    <main>
-      <UsuarioEntrada
-        login={login}
-        paragrafo={paragrafo}
-        handleLogin={handleLogin}
-        handleParagrafo={handleParagrafo}
-      />
-
-      <UsuarioSaida login={login} paragrafo={paragrafo} />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/semana3" element={<Semana3 />}></Route>
+        <Route path="/semana4" element={<Semana4 />}></Route>
+        <Route path="/semana5" element={<Semana5 />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
