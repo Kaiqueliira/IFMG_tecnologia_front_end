@@ -36,13 +36,13 @@ Crie um método que manipula, via states e eventos, o nome de usuário digitado 
 Clone o projeto
 
 ```bash
-  git clone https://github.com/Kaiqueliira/semana_3_tecnologia_front_end
+  git clone https://github.com/Kaiqueliira/IFMG_tecnologia_front_end
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd semana_3_tecnologia_front_end
+  cd IFMG_tecnologia_front_end
 ```
 
 Instale as dependências
